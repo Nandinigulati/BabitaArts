@@ -1,0 +1,57 @@
+{%load static%}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo">BABITA ARTS AND DESIGNS</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <li class="active"></li>
+                <a href={% url 'home'%} class="navbar__links"
+                id="home-page">HOME</a>
+            </li>
+            
+            <li class="navbar__item">
+                <a href={% url 'gallery'%} class="navbar__links"
+                id="gallery-page">GALLERY</a>
+            </li>
+            <li class="navbar__item">
+                <a href={% url 'about'%} class="navbar__links"
+                id="about-page">ABOUT US</a>
+            </li>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Add font awesome icons -->
+            <a href="https://www.instagram.com/babitaartsanddesigns/?img_index=1" class="fa fa-instagram"></a>
+            <a href="https://www.facebook.com/BabitaArts/" class="fa fa-facebook"></a>
+         <!--   <li class="navbar__item">
+                <a href=# class="navbar__links"
+                id="gallery-page">GALLERY  <i class="fas fa-caret-down"></i></a>
+                <div class="sub-menu1">
+                    <ul>
+                        <li><a href="{% url 'gallery'%}">All</a></li>
+                        <li><a href="{% url 'scultures'%}">Sculptures</a></li>
+                        <li><a href="{% url 'murals'%}">Murals</a></li>
+                        <li><a href="{% url 'wallpaintings'%}">Wall Art</a></li>
+                        <li><a href="{% url 'metal'%}">Metal Installations</a></li>
+                        <li><a href="{% url 'paintings'%}">Paintings</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="navbar__item">
+                <a href={% url 'contact'%} class="navbar__links"
+                id="home-page">CONTACT</a>
+            </li> -->            
+
+            
+            
+        </ul>
+    </div>
+
+</nav>

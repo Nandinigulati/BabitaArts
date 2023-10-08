@@ -1,0 +1,231 @@
+{% extends 'accounts/main.html' %}
+
+{% block content  %}
+
+<!--CAROUSEL-->
+{% load static%}
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="{% static 'images/home/HOME1.png' %}" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{% static 'images/home/HOME5.png' %}" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{% static 'images/HOME113.jpg' %}" alt="Third slide"><!--1000x400-->
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{% static 'images/HOME404.png' %}" alt="Fourth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{% static 'images/home/HOME2.jpg' %}" alt="Fifth slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <hr class="featurette-divider">
+
+<!--GRID & WRITE UP-->
+
+<div class="maindiv">
+    
+  <div class="columns-gallery">
+    <div class="pic place">
+      <img src="{% static 'images/home/GRID6.jpg' %}">
+    </div>
+    <div class="pic place">
+        <img src="{% static 'images/home/GRID2.jpg' %}">
+    </div>
+    <div class="pic place">
+          <img src="{% static 'images/home/GRID5.jpg' %}">
+    </div>
+    <div class="pic place">
+      <img src="{% static 'images/home/GRID4.jpg' %}">
+    </div>
+    <div class="pic place">
+        <img src="{% static 'images/GRID40.jpg' %}">
+    </div>
+    <div class="pic place">
+        <img src="{% static 'images/GRID50.png' %}">
+    </div>
+      
+  </div>
+
+  <div class="columnscontent">
+    <div class="content-container">
+      <h5>Babita Arts And Designs </h5>
+      <p>For two decades, Babita Arts & Designs has been a distinguished destination for handcrafted luxury artworks, including fine art, frescos, sculptures, installations, and architectural designs. Our unwavering commitment to transforming imaginative ideas into striking realities drives us to leave no stone unturned in achieving exceptional results.
+      <br>Our bespoke artworks transcend mere aesthetics; they tell captivating stories and narratives. With a rich blend of multicultural aesthetics and a soulful touch, each creation forges a profound connection with our clientele.
+        
+        
+      </p>
+    </div>
+  </div>
+
+</div>
+  <hr class="featurette-divider">
+
+<!--LATEST WORK-->
+
+
+  <div class="container">
+    
+    <div class="columns-latest">
+    <h1>Latest Work</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="{% static 'images/home/LW1.jpg' %}" data-holder-rendered="true">
+          <div class="card-body">
+            <p class="card-text"><b>Oil Painting</b> on canvas describing the history and culture of Khajuraho, Uttar Pradesh.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/home/LW2.jpg' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text"> 5-meter tall <b>Fiber Sculpture</b> of Lord Krishna and Gupta depicting the famous scene from Mahabharata.
+            </p>
+            <div class="d-flex justify-content-between align-items-center">                
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/home/LW3.jpg' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text">A vibrant and eye-catching <b>Neon Wall Art</b>, located at Hangout in Select City Walk Mall, New Delhi.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/Bwall.png' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text">A beautiful <b>Wall Painting</b> of Buddha, adding a sense of tranquility and spiritual energy to a residential space.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/home/LW6.JPG' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text"><b>Oil Painting</b> capturing the beauty and culture of the Varanasi ghats in Uttar Pradesh.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/home/LW5.png' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text">The 'Escape' sculpture made out of <b>fiber</b> located at the Palm Spring Plaza Mall in Gurugram.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/table.png' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text"> Black table <b>art furniture</b> was done exclusively for a clientele in Gurugram to give an elegant look complimenting the overall aesthetics of the space.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/tile.png' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text">An exquisite custom <b>mosaic artwork</b>, created for the walls of an IGL gas station in New Delhi, adding a touch of individuality and beauty to the space.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="{% static 'images/home/LW7.JPG' %}" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+          <div class="card-body">
+            <p class="card-text">Our <b>eagle console</b>, crafted to meet the specific preferences of a customer for a truly personalized and unique piece of furniture.</p>
+            <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+<div class="imgHome">
+  <img src="{% static 'images/home/EXHIBITION.png' %}"></img>
+</div>
+
+
+  <hr class="featurette-divider">
+<!--EXHIBITIONS-->
+
+    <div class="container">
+
+        <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Lalit Kala Art Exhibition <span class="text-muted">2015</span></h2>
+            <p class="lead">Tarannum: Capturing the Essence of Khajuraho.<br> This extraordinary exhibition was graced by the esteemed former Chief Minister of Delhi, Sheila Dixit. Each artwork told a unique story, reflecting the intricate temples, the soulful sculptures, and the vibrant spirit of Khajuraho. The exhibition celebrated the city's rich heritage, blending history with artistry, and it received accolades from art enthusiasts and visitors alike</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto"  alt="500x500" src="{% static 'images/home/EXHIBITION1.jpg' %}" data-holder-rendered="true" style="width: 500px; height: 500px;" >
+
+        </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Indian Habitat Centre <span class="text-muted">2013</span></h2>
+              <p class="lead">This exhibition was a dynamic exploration of modern and abstract art, pushing the boundaries of creativity and imagination. Each piece was a testament to the ever-evolving world of art, inviting viewers to delve into the depths of abstract expressionism and contemporary aesthetics</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="{% static 'images/home/EXHIBITION2.jpg' %}" data-holder-rendered="true" style="width: 500px; height: 500px;">
+            </div>
+          </div>
+
+
+    </div class="container">
+  
+
+{% endblock %}
+
